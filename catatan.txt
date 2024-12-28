@@ -1,0 +1,9 @@
+Pertama anda harus login/register terlebih dahulu
+Lalu anda memilih pilihan antara Admin atau Reader.
+    - Admin : Anda dapat menambahkan buku, melihat buku, mengupdate buku, dan menghapus buku.
+    - Reader : Anda dapat hanya melihat buku saja.
+Setelah register, anda dapat login dan masukan password dengan benar. 
+Jika sudah login dengan benar, anda sudah bisa melihat dashboard kami (Admin/Reader)
+
+
+*Jika anda sudah menambahkan buku tapi upload gambar bukunya belum ada gambar nya, anda bisa mengupload gambar ulang dengan tombol "Edit" lalu upload gambar ulang. Jika sudah, klik "Simpan Perubahan"*

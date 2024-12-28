@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    background-color: #24242c;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e9ecef;
+}
+
+.btn-danger {
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+#function, #review {
+    background-color: rgb(237, 234, 234);
+}
+
+footer {
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #adb5bd;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .navbar-toggler {
+        border: none;
+        outline: none;
+    }
+
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotron h5 {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-nav {
+        gap: 2rem; 
+    }
+
+    .jumbotron h1 {
+        font-size: 4rem;
+    }
+
+    .jumbotron h5 {
+        font-size: 1.5rem;
+    }
+}
+
